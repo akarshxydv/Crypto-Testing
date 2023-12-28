@@ -2,7 +2,7 @@ package com.example.cryptotest.models.remote.coinRates
 
 data class CoinRateDto(
     val privacy: String,
-    val rates: Rates,
+    val rates: HashMap<String, Double>,
     val success: Boolean,
     val target: String,
     val terms: String,
